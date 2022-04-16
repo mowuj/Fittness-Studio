@@ -1,0 +1,8 @@
+.banner{
+    background-image: url(../../../images/banner.png);
+    min-height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
