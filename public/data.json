@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Personal Trainer",
+        "img":"https://i.ibb.co/wdpCcwq/service1.jpg",
+        "price":5000
+    },
+    {
+        "id":2,
+        "name":"Body Building",
+        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "price": 5000
+    },
+    {
+        "id":3,
+        "name":"Gymnastic Rings",
+        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "price": 5000
+    },
+    {
+        "id":4,
+        "name":"Grossfit",
+        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "price": 5000
+    },
+    {
+        "id":5,
+        "name":"Core",
+        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "price": 5000
+    },
+    {
+        "id":6,
+        "name":"Fitness",
+        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "price": 5000
+    }
+]
