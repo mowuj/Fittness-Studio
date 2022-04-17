@@ -1,9 +1,10 @@
 import React from 'react';
-
+import mypic from '../../../images/mypic.jpg'
 const About = () => {
     return (
         <div>
-            <h2>Hey this is Ahsan Habib</h2>
+            <img height={250} src={mypic} alt="" />
+            <h2>Ahsan Habib</h2>
         </div>
     );
 };
