@@ -8,6 +8,7 @@ import Checkout from './components/Home/Checkout/Checkout';
 import Blogs from './components/Home/Blogs/Blogs';
 import Login from './components/Auth/Login/Login';
 import Signup from './components/Auth/Signup/Signup';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

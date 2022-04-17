@@ -6,3 +6,21 @@
     background-size: cover;
     object-fit: cover;
 }
+.banner-text{
+    color: white;
+    text-align: start;
+    
+}
+.banner-text p{
+    font-size: 30px;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.banner-text h1{
+    font-size: 60px;
+    margin-left: 40px;
+    color:rgb(254, 253, 253);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
