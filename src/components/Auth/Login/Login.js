@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from "react-firebase-hooks/auth";
 import './Login.css'
+import auth from '../../../firebase.init';
 const Login = () => {
+     
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     return (
+        
         <div className="login-container">
             <div className="login-title">LOGIN</div>
             <form className="login-form">
@@ -20,7 +25,7 @@ const Login = () => {
                 <p>Don't have an account? <Link to="/signup">Sign up first</Link> </p>
             </form>
 
-            <button>Google</button>
+            <button onClick={()=>signInWithGoogle()}>Google</button>
         </div>
     );
 };
