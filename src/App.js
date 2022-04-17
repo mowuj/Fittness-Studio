@@ -10,6 +10,7 @@ import Login from './components/Auth/Login/Login';
 import Signup from './components/Auth/Signup/Signup';
 import Footer from './components/Shared/Footer/Footer';
 import NotFound from './components/Shared/NotFound/NotFound';
+import RequireAuth from './components/Auth/RequireAuth/RequireAuth';
 
 function App() {
   return (
@@ -20,7 +21,11 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/checkout' element={<Checkout></Checkout>}></Route>
+        <Route path='/checkout' element={
+          <RequireAuth>
+            <Checkout></Checkout>
+          </RequireAuth>
+        }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
