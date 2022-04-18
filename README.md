@@ -1,12 +1,25 @@
-# Getting Started with Create React App
+# Fitness Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site Link: [Fitness Studio](https://fitness-studio-de1ce.web.app/).
 
-## Available Scripts
+## Project Descriptions
 
-In the project directory, you can run:
 
-### `npm start`
+* There are some service render in home page.click service
+ button and is redirect to checkout page.
+* checkout page is a protected route page.and has a checkout form.
+* Answer two Question in blogs page.
+* Try to told my next goal in about me page.
+* There is Sign in,sign up and log out option also
+
+## Technology use in the project
+* React Route
+* React Bootstrap
+* React Icons
+* React Toastify
+* Firebase 
+* Firebase hooks
+* 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

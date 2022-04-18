@@ -56,7 +56,7 @@ const Blogs = () => {
                 </p>
                 </div>
                 <div className='col-md-6 text-start'>
-                    <h4>Authentication like Firebase</h4>
+                    <h5>Authentication like Firebase</h5>
                     <ul>
                         <li>Auth0</li>
                         <li>Passport</li>
