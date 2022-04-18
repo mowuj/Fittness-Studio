@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div class="row ">
                 <div class="col-lg-4">
-                    <a href=""><img style={{"width":"200px","height":"200px"}} src={mypic} class=" img-fluid rounded-circle" alt=""/></a>
+                    <a href=""><img style={{"width":"200px","height":"200px"}} src={mypic} class=" img-fluid " alt=""/></a>
                     
                 </div>
                 <div class="col-lg-6">
