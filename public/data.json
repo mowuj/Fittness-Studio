@@ -3,36 +3,42 @@
         "id":1,
         "name":"Personal Trainer",
         "img":"https://i.ibb.co/8mkktfn/personal-trainer1.jpg",
-        "price":5000
+        "price":5000,
+        "description":" our personal trainers are here to help all members seeking to make the most out of their workouts"
     },
     {
         "id":2,
         "name":"Body Building",
         "img": "https://i.ibb.co/ZBGgTNM/body-building-1.jpg",
-        "price": 5000
+        "price": 5000,
+        "description":"Belive in yourself Challenge yourself.take into the next level.Build your body Our fitness classes are designed to do just that "
     },
     {
         "id":3,
         "name":"Gymnastic Rings",
         "img": "https://i.ibb.co/FBQW6pp/gymnastic-rings1.png",
-        "price": 5000
+        "price": 5000,
+        "description":"Gymnastic Rings with Adjustable Numbered Straps. 1.1'' Olympic Rings for Core Workout and Bodyweight Training "
     },
     {
         "id":4,
         "name":"Crossfit",
         "img": "https://i.ibb.co/q5rqLbj/crossfit.jpg",
-        "price": 5000
+        "price": 5000,
+        "description":"CrossFit Specialty Courses ... improve your technique, and become a better coach and athlete with a CrossFit Specialty Course"
     },
     {
         "id":5,
         "name":"Core",
-        "img": "https://i.ibb.co/ryvsd5G/images.jpg",
-        "price": 5000
+        "img": "https://i.ibb.co/Db5TrQV/corebig.jpg",
+        "price": 5000,
+        "description":"Building a strong core is all about keeping still, not doing hundreds of abdominal curl repetitions,” says Tidmarsh."
     },
     {
         "id":6,
         "name":"Fitness",
         "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
-        "price": 5000
+        "price": 5000,
+        "description": "The way we see it, your fitness experience should be something you look forward to and truly enjoy."
     }
 ]

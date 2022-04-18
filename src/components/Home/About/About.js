@@ -24,10 +24,13 @@ const About = () => {
                 <div class="col-lg-6">
                     
                     
-                    <h4>Full Name:MD AHSAN HABIB</h4>
-                    
-                                <p>Goal:I Love Web Development.i try to learning but not good,
-                                    programming hero give me the confidence i can do
+                    <h4>MD AHSAN HABIB</h4>
+                    <p>My goal is very simple.Try hard to learn ultimately success will come.
+                        Some one says,'Running for Eligible for not Success.Success Automatic come very soon'.
+                        So my next 4-5 months goal is.Learn and understand JavaScript and React as possible.
+                        So that i will able to do something best.
+                    </p>
+                    <p>
                     </p>
                     
 
