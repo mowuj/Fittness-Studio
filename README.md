@@ -1,6 +1,6 @@
 # Fitness Studio
 
-Live Site Link: [Fitness Studio](https://fitness-studio-de1ce.web.app/).
+Live Site Link: [Fitness Studio](https://fitness-studio-de1ce.firebaseapp.com/).
 
 ## Project Descriptions
 
