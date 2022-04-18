@@ -2,31 +2,31 @@
     {
         "id":1,
         "name":"Personal Trainer",
-        "img":"https://i.ibb.co/wdpCcwq/service1.jpg",
+        "img":"https://i.ibb.co/8mkktfn/personal-trainer1.jpg",
         "price":5000
     },
     {
         "id":2,
         "name":"Body Building",
-        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "img": "https://i.ibb.co/ZBGgTNM/body-building-1.jpg",
         "price": 5000
     },
     {
         "id":3,
         "name":"Gymnastic Rings",
-        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "img": "https://i.ibb.co/FBQW6pp/gymnastic-rings1.png",
         "price": 5000
     },
     {
         "id":4,
         "name":"Crossfit",
-        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "img": "https://i.ibb.co/q5rqLbj/crossfit.jpg",
         "price": 5000
     },
     {
         "id":5,
         "name":"Core",
-        "img": "https://i.ibb.co/wdpCcwq/service1.jpg",
+        "img": "https://i.ibb.co/ryvsd5G/images.jpg",
         "price": 5000
     },
     {
