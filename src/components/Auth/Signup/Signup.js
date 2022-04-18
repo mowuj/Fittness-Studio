@@ -35,7 +35,7 @@ const Signup = () => {
         const confirmPass = event.target.confirmPass.value;
         
             await createUserWithEmailAndPassword(email, password)
-            navigate('/login')
+            navigate('/home')
         
         
         

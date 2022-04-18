@@ -8,6 +8,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import './Header.css'
 import { signOut } from 'firebase/auth';
+import CustomLink from '../../Auth/CustomLink/CustomLink';
 const Header = () => {
   const [user] = useAuthState(auth);
   const handleSignOut = () => {
@@ -22,21 +23,21 @@ const Header = () => {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto ">
-      <Nav.Link className='text-white' as={Link} to="/home">Home</Nav.Link>
-      <Nav.Link className='text-white' href="home#services">Services</Nav.Link>
+      <Nav.Link className='text-white' as={CustomLink} to="/home">Home</Nav.Link>
+      <Nav.Link className='text-white'href="home#services">Services</Nav.Link>
       
-      <Nav.Link className='text-white' as={Link} to="/checkout">CheckOut</Nav.Link>
-      <Nav.Link className='text-white' as={Link} to="/blogs">Blogs</Nav.Link>
+      <Nav.Link className='text-white' as={CustomLink} to="/checkout">CheckOut</Nav.Link>
+      <Nav.Link className='text-white' as={CustomLink} to="/blogs">Blogs</Nav.Link>
       
       </Nav>
 
     <Nav>
-    <Nav.Link className='text-white' as={Link} to="/about">About me</Nav.Link>
+    <Nav.Link className='text-white' as={CustomLink} to="/about">About me</Nav.Link>
     {
       user?
       <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}><FaSignOutAlt className='fs-4'></FaSignOutAlt>Signout</button>
       :
-      <Nav.Link className='text-white' as={Link} to="/login"><AiOutlineLogin className='fs-4'></AiOutlineLogin > Login</Nav.Link>
+      <Nav.Link className='text-white' as={CustomLink} to="/login"><AiOutlineLogin className='fs-4'></AiOutlineLogin > Login</Nav.Link>
     }
     
     </Nav>            

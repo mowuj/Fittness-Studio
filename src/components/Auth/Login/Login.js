@@ -28,7 +28,7 @@ const Login = () => {
     return <Loading></Loading>
     }
     if (error || googleError) {
-        errorElement=<p className='text-danger'>Error: {error?.message}</p>
+        errorElement=<p className='text-danger'>Error: {error?.message}{googleError?.message }</p>
     
     }
     const handleSubmit = event => {
