@@ -49,7 +49,7 @@ const Signup = () => {
                 
                 <div className="relative">
                     <input name='password' type="password" placeholder="password"  />
-                   
+                
                 </div>
                 
                 <input
@@ -60,8 +60,7 @@ const Signup = () => {
                 <p>Already Have an account? <Link to='/login' className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Login</Link></p>
                 <button>Sign up</button>
 
-                {/* {error && <p className="error-message">{error}</p> } */}
-                {/* {hookError && <p className="error-message">{hookError?.message}</p>} */}
+                
                 <ToastContainer />
             </form>
         </div>

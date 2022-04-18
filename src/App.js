@@ -8,11 +8,10 @@ import Checkout from './components/Home/Checkout/Checkout';
 import Blogs from './components/Home/Blogs/Blogs';
 import Login from './components/Auth/Login/Login';
 import Signup from './components/Auth/Signup/Signup';
-import Footer from './components/Shared/Footer/Footer';
+
 import NotFound from './components/Shared/NotFound/NotFound';
 import RequireAuth from './components/Auth/RequireAuth/RequireAuth';
-import Service from './components/Home/Service/Service';
-import Services from './components/Home/Services/Services';
+
 
 function App() {
   return (
