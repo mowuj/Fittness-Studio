@@ -27,7 +27,7 @@ const Login = () => {
     if (loading || googleLoading) {
     return <Loading></Loading>
     }
-    if (error) {
+    if (error || googleError) {
         errorElement=<p className='text-danger'>Error: {error?.message}</p>
     
     }
@@ -55,6 +55,7 @@ const Login = () => {
         <div className="login-container">
             <div className="login-title">LOGIN</div>
             <form className="login-form" onSubmit={handleSubmit}>
+                {errorElement}
                 <input ref={emailRef} type="email" placeholder="Your Email" />
                 
                 <input ref={passwordRef} type="password" placeholder="password" />

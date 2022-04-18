@@ -2,10 +2,14 @@
     background-color: black;
     padding: 10px;
     margin: 20px 0;
+    
 }
 .footer{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    /* display: flex;
+    flex-direction: row; */
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
@@ -16,3 +20,15 @@
     font-size: 18px;
     text-align: start;
 }
+ @media only screen and (max-width:576px) {
+    .footer {
+        display: grid;
+        grid-template-columns:1fr;
+    }
+}
+/*
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
